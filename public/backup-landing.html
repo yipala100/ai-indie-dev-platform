@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI求职助手 - 让每次投递都有回音</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif; color: #1a1a2e; }
+    .hero {
+      min-height: 100vh; display: flex; align-items: center; justify-content: center;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      text-align: center; color: white; padding: 2rem;
+    }
+    .hero h1 { font-size: 3rem; margin-bottom: 1rem; }
+    .hero p { font-size: 1.2rem; opacity: 0.9; max-width: 600px; margin: 0 auto 2rem; }
+    .cta-btn {
+      display: inline-block; padding: 1rem 3rem; background: white; color: #667eea;
+      border-radius: 50px; font-size: 1.1rem; font-weight: bold; text-decoration: none;
+      transition: transform 0.3s; cursor: pointer;
+    }
+    .cta-btn:hover { transform: scale(1.05); }
+    .section { padding: 4rem 2rem; max-width: 900px; margin: 0 auto; }
+    .section h2 { font-size: 2rem; text-align: center; margin-bottom: 2rem; }
+    .pain-points { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; }
+    .pain-card {
+      padding: 1.5rem; border-radius: 12px; background: #f8f9fa; border-left: 4px solid #667eea;
+    }
+    .pain-card h3 { color: #667eea; margin-bottom: 0.5rem; }
+    .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+    .feature-card { text-align: center; padding: 2rem; border-radius: 12px; background: white; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+    .feature-card .icon { font-size: 3rem; margin-bottom: 1rem; }
+    .feature-card h3 { margin-bottom: 0.5rem; }
+    .final-cta { text-align: center; padding: 4rem 2rem; background: #f8f9fa; }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <div>
+      <h1>🎯 AI求职助手</h1>
+      <p>让每次投递都有回音。AI驱动的简历优化 + 面试模拟 + 岗位匹配，助你拿下心仪offer</p>
+      <a class="cta-btn" href="#features">免费体验</a>
+    </div>
+  </div>
+  <div class="section">
+    <h2>😩 你是否遇到这些问题？</h2>
+    <div class="pain-points">
+      <div class="pain-card">
+        <h3>简历石沉大海</h3>
+        <p>投了100份简历没有一个回音，不知道问题出在哪里</p>
+      </div>
+      <div class="pain-card">
+        <h3>面试紧张到空白</h3>
+        <p>没有人陪你模拟面试，每次面试都像第一次</p>
+      </div>
+      <div class="pain-card">
+        <h3>海投效率极低</h3>
+        <p>不知道哪些岗位真正适合自己，时间全浪费在无效投递上</p>
+      </div>
+    </div>
+  </div>
+  <div class="section" id="features" style="background:#f8f9fa;">
+    <h2>✨ 三大核心功能</h2>
+    <div class="features">
+      <div class="feature-card">
+        <div class="icon">📝</div>
+        <h3>AI简历优化</h3>
+        <p>上传简历+JD，AI自动分析匹配度并给出优化建议</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon">🎤</div>
+        <h3>AI面试模拟</h3>
+        <p>根据岗位出真实面试题，AI评分+改进建议</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon">🎯</div>
+        <h3>岗位智能匹配</h3>
+        <p>基于简历分析，推荐最适合你的岗位列表</p>
+      </div>
+    </div>
+  </div>
+  <div class="final-cta">
+    <h2>🚀 立即免费体验</h2>
+    <p style="margin:1rem 0 2rem;color:#666;">无需注册，打开即用</p>
+    <a class="cta-btn" style="background:#667eea;color:white;" href="#">开始使用</a>
+  </div>
+</body>
+</html>
